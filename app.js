@@ -180,6 +180,7 @@ jQuery(function ($) {
             this.render();
         }
     };
+    // init 初始化函数
     App.init();
 
 });
