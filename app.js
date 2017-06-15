@@ -49,6 +49,7 @@ jQuery(function ($) {
                 }.bind(this)
             }).init('/all');
         },
+        // bind not define
         bindEvents: function () {
             $('#new-todo').on('keyup', this.create.bind(this));
             $('#toggle-all').on('change', this.toggleAll.bind(this));
