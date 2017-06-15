@@ -51,7 +51,6 @@ jQuery(function ($) {
         },
         bindEvents: function () {
             $('#new-todo').on('keyup', this.create.bind(this));
-     
             //$('#new-todo').on('keyup', this.create.bind(this));
             $('#toggle-all').on('change', this.toggleAll.bind(this));
             $('#footer').on('click', '#clear-complated', this.destroyCompleted.bind(this));
